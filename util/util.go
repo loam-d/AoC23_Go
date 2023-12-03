@@ -43,7 +43,7 @@ func (lr *linereader) Next() bool {
 }
 
 func GetInputFileReader(day int, part int) (linereader, error) {
-	return getLineReader("./input/day1_1.txt")
+	return getLineReader(fmt.Sprintf("./input/day%d_%d.txt", day, part))
 }
 
 func intAbs(x int) int {
