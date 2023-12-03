@@ -46,6 +46,11 @@ func GetInputFileReader(day int, part int) (linereader, error) {
 	return getLineReader(fmt.Sprintf("./input/day%d_%d.txt", day, part))
 }
 
+type Coordinate struct {
+	X int
+	Y int
+}
+
 func intAbs(x int) int {
 	if x < 0 {
 		return -x
