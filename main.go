@@ -21,7 +21,9 @@ func main() {
 	case "3":
 		fmt.Printf("day3:\n\t%d \n\t%d\n", solutions.Day3_1(), solutions.Day3_2())
 	case "4":
-	default:
 		fmt.Printf("day4:\n\t%d \n\t%d\n", solutions.Day4_1(), solutions.Day4_2())
+	case "5":
+	default:
+		fmt.Printf("day5:\n\t%d \n\t%d\n", solutions.Day5_1(), solutions.Day5_2())
 	}
 }
